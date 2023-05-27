@@ -11,7 +11,7 @@
 </head>
 <body>
     
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3"> <!-- navbar-expand-lg : the navbar will be a navbar-toggler-icon on large(lg) dimensions-->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top"> <!-- navbar-expand-lg : the navbar will be a navbar-toggler-icon on large(lg) dimensions-->
   <div class="container">
     <a href="#" class="navbar-brand">Frontend Bootcamp</a>
     <button 
@@ -72,7 +72,7 @@
 </section>
 
 <!-- Boxes -->
-<section class="p-5">
+<section class="p-5" id="#">
   <div class="container">
     <div class="row text-center g-4">
       <div class="col-md">
@@ -130,6 +130,122 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- Learn Section -->
+<section class="p-5" id="learn">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md">
+        <img src="img/fundamentals.svg" class="img-fluid">
+      </div>
+      <div class="col-md p-5">
+        <h2>Learn the fundamentals</h2>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id culpa, minus iusto tempore ipsam ullam doloremque voluptatem alias officia ducimus laboriosam, labore quia corporis fugiat.
+        </p>
+        <a href="#" class="btn btn-light mt-3">
+          <i class="bi bi-chevron-right"></i>Read More
+        </a>  
+      </div>      
+    </div>
+  </div>
+</section>
+
+<!-- Learn React -->
+<section class="p-5 bg-dark" id="learn">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md p-5">
+        <h2 class="text-light">Learn the fundamentals</h2>
+        <p class="lead text-light">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id culpa, minus iusto tempore ipsam ullam doloremque voluptatem alias officia ducimus laboriosam, labore quia corporis fugiat.
+        </p>
+        <a href="#" class="btn btn-light mt-3">
+          <i class="bi bi-chevron-right"></i>Read More
+        </a>  
+      </div>
+      <div class="col-md">
+        <img src="img/react.svg" class="img-fluid">
+      </div>      
+    </div>
+  </div>
+</section>
+
+<!-- Question Accordion -->
+<section id="question" class="p-5">
+  <div class="container">
+    <h2 class="text-center mb-4">
+      Frequently Asked Question
+    </h2>
+    <div class="accordion accordion-flush" id="FAQ">
+    <!-- Item 1-->
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="questionHeading-1">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Question-1" aria-expanded="false" aria-controls="Question-1">
+        Where exactly are you located ?
+      </button>
+    </h2>
+    <div id="Question-1" class="accordion-collapse collapse" aria-labelledby="questionHeading-1" data-bs-parent="#FAQ">
+      <div class="accordion-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem autem impedit optio repudiandae nesciunt minima magni non eaque rem. Fugit tempore quasi magnam, molestiae minima fugiat quaerat laborum expedita nostrum, deserunt eligendi sapiente quibusdam earum necessitatibus ipsam veritatis accusantium exercitationem.
+      </div>
+    </div>
+  </div>
+  <!-- Item 2-->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="questionHeading-2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Question-2" aria-expanded="false" aria-controls="Question-2">
+        Where exactly are you located ?
+      </button>
+    </h2>
+    <div id="Question-2" class="accordion-collapse collapse" aria-labelledby="questionHeading-2" data-bs-parent="#FAQ">
+      <div class="accordion-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem autem impedit optio repudiandae nesciunt minima magni non eaque rem. Fugit tempore quasi magnam, molestiae minima fugiat quaerat laborum expedita nostrum, deserunt eligendi sapiente quibusdam earum necessitatibus ipsam veritatis accusantium exercitationem.
+      </div>
+    </div>
+  </div>
+  <!-- Item 3-->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="questionHeading-3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Question-3" aria-expanded="false" aria-controls="Question-3">
+        Where exactly are you located ?
+      </button>
+    </h2>
+    <div id="Question-3" class="accordion-collapse collapse" aria-labelledby="questionHeading-3" data-bs-parent="#FAQ">
+      <div class="accordion-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem autem impedit optio repudiandae nesciunt minima magni non eaque rem. Fugit tempore quasi magnam, molestiae minima fugiat quaerat laborum expedita nostrum, deserunt eligendi sapiente quibusdam earum necessitatibus ipsam veritatis accusantium exercitationem.
+      </div>
+    </div>
+  </div>
+  <!-- Item 4-->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="questionHeading-4">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Question-4" aria-expanded="false" aria-controls="Question-4">
+        Where exactly are you located ?
+      </button>
+    </h2>
+    <div id="Question-4" class="accordion-collapse collapse" aria-labelledby="questionHeading-4" data-bs-parent="#FAQ">
+      <div class="accordion-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem autem impedit optio repudiandae nesciunt minima magni non eaque rem. Fugit tempore quasi magnam, molestiae minima fugiat quaerat laborum expedita nostrum, deserunt eligendi sapiente quibusdam earum necessitatibus ipsam veritatis accusantium exercitationem.
+      </div>
+    </div>
+  </div>
+  <!-- Item 5-->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="questionHeading-5">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Question-5" aria-expanded="false" aria-controls="Question-5">
+        Where exactly are you located ?
+      </button>
+    </h2>
+    <div id="Question-5" class="accordion-collapse collapse" aria-labelledby="questionHeading-5" data-bs-parent="#FAQ">
+      <div class="accordion-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem autem impedit optio repudiandae nesciunt minima magni non eaque rem. Fugit tempore quasi magnam, molestiae minima fugiat quaerat laborum expedita nostrum, deserunt eligendi sapiente quibusdam earum necessitatibus ipsam veritatis accusantium exercitationem.
+      </div>
+    </div>
+  </div>
+</div>
   </div>
 </section>
 
